@@ -65,4 +65,17 @@ body, html{
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.ptext .border{
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px;
+}
+
+@media (max-width: 560px) {
+  .img1, .img2, .img3{
+    background-attachment: scroll;
+  }
 }
